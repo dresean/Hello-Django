@@ -23,8 +23,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-SECRET_KEY = 'f60@&^$y#m8@%58e_v*%2t-*9q&!rhj1&jz9lq+ic8%rlepgam'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
